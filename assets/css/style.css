@@ -67,6 +67,7 @@ html {
     --height2: 2.375rem;
     --height3: 1.25rem;
     --width: 50rem;
+    --height-img:12rem;
 }
 
 #header {
@@ -308,6 +309,7 @@ html {
 }
 .place-img{
     width: 100%;
+    height: var(--height-img);
     display: block;
 }
 img.place-img:hover {
