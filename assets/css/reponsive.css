@@ -1,0 +1,78 @@
+
+
+/* PC  */
+@media (min-width: 1024px){
+    #header .bar-btn{
+        display: none;
+    }
+}
+/* Tablet  */
+@media (min-width:740px) and (max-width:1023px){
+    #header .bar-btn{
+        display: none;
+    }
+}
+/* Mobile  */
+@media (max-width:740px){
+    #header .search-btn{
+        display: none;
+    }
+    #header{
+        overflow: hidden !important;
+    }
+    #header .bar-btn, #header .search-btn {
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #content .about-text {
+        line-height: 1.3 !important;
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li{
+        float: none;
+    }
+    ul#nav li:first-child {
+        display: inline-block;
+    }
+    #tour .row,
+    #band .row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tour .col-third,
+    #band .col-third {
+        width: 100%;
+    }
+    #tour .col,
+    #band .col{
+        margin: 15px 0px;
+        float: none;
+    }
+    #contact .contact-info {
+        line-height: 1.4rem;
+        margin-bottom: 20px;
+    }
+    #contact .col-two {
+        width: 100%;
+    }
+    #contact .contact-form{
+        padding: 0 15px;
+    }
+    #contact input.form-control {
+        margin-bottom: 5px;
+    }
+    #content .tour-section {
+        padding: 30px 2px 100px !important;
+    }
+
+}
